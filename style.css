@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Nunito', sans-serif; 
+    font-weight: 700;
+    color:royalblue
+}
+body{
+    background-color: royalblue;
+}
+button{
+    padding:6px 15px;
+    /* border:3px rgb(185, 21, 218) solid; */
+    border:none;
+    background-color: royalblue;
+    color:white;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    font-size:20px;
+    /* transform:scale(1.25) */
+}
+button:hover{
+    transform:scale(1.2);
+    color:royalblue;
+    background-color:white;
+        box-shadow: 0 6px 20px rgba(5,5,5,0.18);
+
+}
+.main_div{
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    /* border: solid 5px royalblue; */
+    background-color: white;
+    padding:40px 40px;
+    margin:20px auto;
+    margin-top:70px;
+    /* background-color: green; */
+    display:flex;
+    justify-content: start;
+    flex-direction: column;
+    gap:35px;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(5,5,5,0.28);
+
+}
+.app_div{
+    /* background-color: red; */
+    display: flex;
+    gap:30px;
+    margin-bottom:20px;
+
+    
+}
+.java_div{
+    font-size: 34px;
+    text-align: center;
+}
+.main_div input{
+    padding:5px 10px 5px 4px;
+    width: 300px;
+    font-size:25px;
+    /* border-radius:10px; */
+    border:none;
+    outline: none;
+    border-bottom:solid 3px rgb(30, 80, 246);
+    font-weight: 900;
+}
+.main_div input::placeholder{
+    color:rgb(181, 183, 188);
+}
+p{
+    width: 400px;
+    margin:40px auto;
+    text-align: center;
+}
