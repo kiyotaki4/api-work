@@ -2,11 +2,12 @@ const button = document.querySelector('.main_btn')
 const input = document.querySelector('.main_input')
 const java_div = document.querySelector('.java_div')
 
-window.addEventListener('load',()=>{
+window.addEventListener('load',async()=>{
     console.log('322')
     const sessionCity = localStorage.getItem('city'||null)
     input.value = sessionCity
-    renderApp(sessionCity)
+    await renderApp(sessionCity)
+    input.value = ''
 
 })
 
